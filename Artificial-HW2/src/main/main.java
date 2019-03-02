@@ -57,8 +57,13 @@ public class main {
 			count++;
 		}
 		print(array);
+		System.out.println("Cost of the path found: ");
+		System.out.println("Number of nodes expanded: ");
+		System.out.println("Maximum number of nodes held in memory: ");
+		System.out.println("Runtime of the algorithm (milliseconds): ");
+		System.out.println("Path sequence of coordinates: ");
 	}
-	
+
 	public static void print(int[][] a){
 		for(int row = 0; row < a.length; row++){
 			for(int col = 0; col < a[row].length;col++){
